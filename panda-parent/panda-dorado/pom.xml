@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
@@ -18,8 +19,17 @@
 			<artifactId>dorado-core</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.malagu.panda</groupId>
+			<artifactId>panda-dorado-linq</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.thoughtworks.paranamer</groupId>
 			<artifactId>paranamer</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.malagu.panda</groupId>
+			<artifactId>panda-core</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
